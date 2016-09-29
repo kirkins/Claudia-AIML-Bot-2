@@ -3,7 +3,7 @@ A node.js app using Claudia. Allows users to chat with a bot on facebook. Edit `
 
 Based on my [first version of the bot](https://github.com/kirkins/Claudia-AIML-Bot) but added facebook ui, emotion module using Microsoft cognitive api, logging using dynamoDb, and the ability to play rock, paper, scissors.
 
-   ![alt tag](http://i.imgur.com/EbVh02q.png)
+   [![YouTubeVideo](http://blog.graniteapps.co/content/images/2016/09/Screenshot-from-2016-09-28-23-39-52.png)](https://www.youtube.com/watch?v=pHr32XXrxpI)
 
 After cloning:
 
