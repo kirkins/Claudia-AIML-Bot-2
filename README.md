@@ -8,7 +8,7 @@ You'll also need to enable the lambda function to access your DyndamoDB instance
 
 #config for emotion detection
 
-The emotion command causes the bot to use Microsoft's Cogntitive API with the user's profile picture. To get this working you need to get an api key and add it to the 'config/config.js' file.
+The emotion command causes the bot to use [Microsoft's Cogntitive Emotion API](https://www.microsoft.com/cognitive-services/en-us/emotion-api) with the user's profile picture. To get this working you need to get an api key and add it to the 'config/config.js' file.
 
 # Claudia AIML Bot
 
