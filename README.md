@@ -1,5 +1,5 @@
 # Claudia AIML Bot
-A node.js app using Claudia. Allows users to chat with a bot on facebook. Edit `aiml/bot.aiml` to change responses.
+A node.js app using Claudia. Allows users to chat with a bot on facebook. Edit `responses/bot.aiml` to change responses.
 
 Based on my [first version of the bot](https://github.com/kirkins/Claudia-AIML-Bot) but added facebook ui, emotion module using Microsoft cognitive api, logging using dynamoDb, and the ability to play rock, paper, scissors.
 
