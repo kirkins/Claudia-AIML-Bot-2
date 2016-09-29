@@ -1,12 +1,12 @@
 Based on my [first version of the bot](https://github.com/kirkins/Claudia-AIML-Bot) but added facebook ui, emotion module using Microsoft cognitive api, logging using dynamoDb, and the ability to play rock, paper, scissors.
 
-#config for database logging
+#Config for database logging
 
 To get logging with dynamoDb working you need to create a table for users and a table for messages. After you've made the tables add the names to the 'config/config.js' file.
 
 You'll also need to enable the lambda function to access your DyndamoDB instance. You can do this in the 'identity & access management' section of the AWS console.  
 
-#config for emotion detection
+#Config for emotion detection
 
 The emotion command causes the bot to use [Microsoft's Cogntitive Emotion API](https://www.microsoft.com/cognitive-services/en-us/emotion-api) with the user's profile picture. To get this working you need to get an api key and add it to the 'config/config.js' file.
 
