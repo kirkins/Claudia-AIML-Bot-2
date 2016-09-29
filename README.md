@@ -1,4 +1,15 @@
+# Claudia AIML Bot
+A node.js app using Claudia. Allows users to chat with a bot on facebook. Edit `aiml/bot.aiml` to change responses.
+
 Based on my [first version of the bot](https://github.com/kirkins/Claudia-AIML-Bot) but added facebook ui, emotion module using Microsoft cognitive api, logging using dynamoDb, and the ability to play rock, paper, scissors.
+
+   ![alt tag](http://i.imgur.com/EbVh02q.png)
+
+After cloning:
+
+    npm install claudia -g
+    npm install
+    claudia create --region us-east-1 --api-module bot --configure-fb-bot
 
 #Config for database logging
 
@@ -10,17 +21,6 @@ You'll also need to enable the lambda function to access your DyndamoDB instance
 
 The emotion command causes the bot to use [Microsoft's Cogntitive Emotion API](https://www.microsoft.com/cognitive-services/en-us/emotion-api) with the user's profile picture. To get this working you need to get an api key and add it to the 'config/config.js' file.
 
-# Claudia AIML Bot
-
-A node.js app using Claudia. Allows users to chat with a bot on facebook. Edit `aiml/bot.aiml` to change responses.
-
-   ![alt tag](http://i.imgur.com/EbVh02q.png)
-
-After cloning:
-
-    npm install claudia -g
-    npm install
-    claudia create --region us-east-1 --api-module bot --configure-fb-bot
 More on using Claudia: https://aws.amazon.com/blogs/compute/create-and-deploy-a-chat-bot-to-aws-lambda-in-five-minutes/
 
 Claudia https://github.com/claudiajs/claudia-bot-builder
