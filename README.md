@@ -1,4 +1,4 @@
-# Claudia AIML Bot
+# Claudia AIML Bot 2
 
 [Facebook Demo](https://www.facebook.com/AIMLBot/) | [Video Demo](https://www.youtube.com/watch?v=pHr32XXrxpI)
 
